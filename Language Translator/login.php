@@ -1,9 +1,8 @@
 <?php
-//FINAL!!!!
 $servername = "localhost";
 $username = "kazi";
-$password = "Z0r0th3s!nigam!";
-$db = "Final";
+$password = ""; //for personal reason no password at github
+$db = "language";
 
 $connection = new mysqli($servername, $username, $password, $db);
 
